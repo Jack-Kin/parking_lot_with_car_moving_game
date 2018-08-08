@@ -204,8 +204,6 @@ void Car::CarD() {
 
 void Car::CarM(Vec dir) {
     this->anchor = dir * v + this->anchor;
-
-    //每个图形move
     for (int i = 0; i < 4; ++i) {
         sh[i]->move(dir);
     }
