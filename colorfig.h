@@ -70,7 +70,7 @@ private:
     Vec p1, p2, p3;
 };
 
-class Trapezoid : public ColoredFig {   //梯形
+class Trapezoid : public ColoredFig {  
 
 public:
     Trapezoid(Vec anchor, Vec pt1, Vec pt2, Vec pt3, Vec pt4, float r, float g, float b);
