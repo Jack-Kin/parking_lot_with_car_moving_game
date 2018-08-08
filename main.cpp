@@ -137,7 +137,7 @@ void TimeStep(int n)
 
 void drawScene()
 {
-    //黑色
+    //black
     glColor3f(0.0f, 0.0f, 0.0f);
     glLineWidth(4);
     glBegin(GL_LINES);
