@@ -13,4 +13,5 @@ include_directories(${GLUT_INCLUDE_DIR})
 add_executable(part1 part1.cpp d.h d.cpp)
 add_executable(part2 main.cpp vector.h vector.cpp colorfig.h colorfig.cpp group.h group.cpp random.cpp random.h)
 
+
 target_link_libraries(part2 ${GLUT_LIBRARY} ${OPENGL_LIBRARY} m)
