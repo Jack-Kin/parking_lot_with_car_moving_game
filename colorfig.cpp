@@ -21,7 +21,6 @@ void Rec::draw() {
     glEnd();
 }
 
-//todo 长方形改成四个点的
 void Rec::move(Vec dir) {
     Vec vector = (dir * v) + this->anchor;
     setAnchor(vector);
@@ -30,7 +29,6 @@ void Rec::move(Vec dir) {
     p3 = (dir *v) + p3;
     p4 = (dir *v) + p4;
 }
-
 
 void Rec::rotate(double angle) {
     p1 = ((p1 - anchor) << angle )+ anchor;
